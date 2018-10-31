@@ -129,3 +129,6 @@
 [submodule "vim/pack/plugins/start/vim-kubernetes"]
 	path = vim/pack/plugins/start/vim-kubernetes
 	url = https://github.com/andrewstuart/vim-kubernetes.git
+[submodule "vim/pack/plugins/start/nerdtree-git-plugin"]
+	path = vim/pack/plugins/start/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin.git
