@@ -1,7 +1,6 @@
 [user]
-  name = Chip Wolf
-  email = hello@chipwolf.uk
-  signingkey = 91A58A1F
+  name = Matt White
+  email = matt@matt-white.co.uk
 [color]
   ui = true
 [core]
@@ -13,11 +12,11 @@
   lg = !"git lg1"
   mr = !sh -c 'git fetch $1 merge-requests/$2/head:mr-$1-$2 && git checkout mr-$1-$2' -
 [github]
-  user = chipwolf
+  user = krangence
 [gpg]
   program = gpg
 [commit]
-  gpgsign = true
+  gpgsign = false
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f
